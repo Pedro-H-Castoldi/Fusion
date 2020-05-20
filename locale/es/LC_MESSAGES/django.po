@@ -1,0 +1,437 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-20 15:17-0300\n"
+"PO-Revision-Date: 2020-05-20 15:18-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: .\core\forms.py:7 .\core\forms.py:18
+msgid "Nome"
+msgstr "Nombre"
+
+#: .\core\forms.py:8 .\core\forms.py:19
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#: .\core\forms.py:9 .\core\forms.py:20
+msgid "Assunto"
+msgstr "Asunto"
+
+#: .\core\forms.py:10 .\core\forms.py:21
+msgid "Mensagem"
+msgstr "Mensaje"
+
+#: .\core\models.py:13
+msgid "Criação"
+msgstr "Creación"
+
+#: .\core\models.py:14
+msgid "modificado"
+msgstr "Modificado"
+
+#: .\core\models.py:15
+msgid "Ativo?"
+msgstr "¿Activo?"
+
+#: .\core\models.py:22 .\core\models.py:71
+msgid "Engrenagem"
+msgstr "Engranaje"
+
+#: .\core\models.py:23
+msgid "Gráfico"
+msgstr "Gráfico"
+
+#: .\core\models.py:24
+msgid "Usuários"
+msgstr "Usuarios"
+
+#: .\core\models.py:25 .\core\models.py:73
+msgid "Design"
+msgstr "Deseño"
+
+#: .\core\models.py:26
+msgid "Mobile"
+msgstr "Móvil"
+
+#: .\core\models.py:27
+msgid "Foguete"
+msgstr "Cohete"
+
+#: .\core\models.py:30
+msgid "Servico"
+msgstr "Servicio"
+
+#: .\core\models.py:31
+msgid "Descrição"
+msgstr "Descripción"
+
+#: .\core\models.py:32 .\core\models.py:78
+msgid "Icone"
+msgstr "Icono"
+
+#: .\core\models.py:35
+msgid "Serviço"
+msgstr "Servicio"
+
+#: .\core\models.py:36 .\core\templates\base.html:49
+msgid "Serviços"
+msgstr "Servicios"
+
+#: .\core\models.py:42 .\core\models.py:45 .\core\models.py:54
+msgid "Cargo"
+msgstr "Carga"
+
+#: .\core\models.py:46
+msgid "Cargos"
+msgstr "Cargos"
+
+#: .\core\models.py:53
+msgid "nome"
+msgstr "Nombre"
+
+#: .\core\models.py:55
+msgid "Bio"
+msgstr "Bio"
+
+#: .\core\models.py:56
+msgid "Imagem"
+msgstr "Imagén"
+
+#: .\core\models.py:62
+msgid "Funcionário"
+msgstr "Empleado"
+
+#: .\core\models.py:63
+msgid "Funcionários"
+msgstr "Empleados"
+
+#: .\core\models.py:70
+msgid "Notebook"
+msgstr "Notebook"
+
+#: .\core\models.py:72
+msgid "Folha"
+msgstr "hoja"
+
+#: .\core\models.py:76
+msgid "Recurso"
+msgstr "Recurso"
+
+#: .\core\models.py:77
+msgid "Descricao"
+msgstr "descripción"
+
+#: .\core\models.py:81
+msgid "Feature"
+msgstr "Feature"
+
+#: .\core\models.py:82
+msgid "Features"
+msgstr "Features"
+
+#: .\core\templates\404.html:11
+msgid "Página não encontrada"
+msgstr "Página no encontrada"
+
+#: .\core\templates\404.html:12
+msgid "Infelizmente a pagima que você procura não está disponível."
+msgstr "Infelizmente a pagima que vocé procura noo está disponível."
+
+#: .\core\templates\500.html:11
+msgid "ERRO 500"
+msgstr "ERROR 500"
+
+#: .\core\templates\500.html:11
+msgid "Erro de processamento"
+msgstr "Error de proceso"
+
+#: .\core\templates\500.html:12
+msgid "Infelizmente não foi possível processar a requisição."
+msgstr "Infelizmente no o foi possível processar a requisi-o."
+
+#: .\core\templates\base.html:54
+msgid "Equipe"
+msgstr ""
+
+#: .\core\templates\base.html:59
+msgid "Preços"
+msgstr "Precios"
+
+#: .\core\templates\base.html:64
+msgid "Clientes"
+msgstr "Clientes"
+
+#: .\core\templates\base.html:69
+msgid "Contato"
+msgstr "Contacto"
+
+#: .\core\templates\chamada.html:8
+msgid "Get 30 days free trial"
+msgstr "Obtenga 30 días de prueba gratis"
+
+#: .\core\templates\chamada.html:9
+msgid ""
+"Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, at "
+"finibus neque odio quis metus. Donec vulputate arcu quam."
+msgstr ""
+"Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, en "
+"finibus neque odio quis metus. Donec vulputate arcu quam."
+
+#: .\core\templates\chamada.html:13
+msgid "Register Now"
+msgstr "Regístrate ahora"
+
+#: .\core\templates\clientes.html:16
+msgid "Creative Head"
+msgstr "Cabeza creativa, Año Nuevo"
+
+#: .\core\templates\clientes.html:19 .\core\templates\clientes.html:41
+#: .\core\templates\clientes.html:63 .\core\templates\clientes.html:85
+msgid ""
+"Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex "
+"fermentum, gravida felis nec, tincidunt ligula."
+msgstr ""
+"Praesent cursus nulla non arcu tempor, ut egestas elit tempus. En ac ex "
+"fermentum, gravida felis nec, ligula tincidunt."
+
+#: .\core\templates\clientes.html:38
+msgid "Awesome Technology co."
+msgstr "Impresionante tecnología co."
+
+#: .\core\templates\clientes.html:60
+msgid "Nesnal Design co"
+msgstr ""
+
+#: .\core\templates\clientes.html:82
+msgid "Developer"
+msgstr "Desarrollador"
+
+#: .\core\templates\contato.html:7
+msgid "Contate-nos"
+msgstr "Contáctenos"
+
+#: .\core\templates\features.html:7
+msgid "Recursos Impressionantes"
+msgstr "Características impresionantes"
+
+#: .\core\templates\footer.html:12
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis "
+"tincidunt est, et euismod purus suscipit quis."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis "
+"tincidunt est, et euismod purus suscipit quis."
+
+#: .\core\templates\footer.html:23
+msgid "Products"
+msgstr "Productos"
+
+#: .\core\templates\footer.html:25
+msgid "Tracking"
+msgstr "Rastreo"
+
+#: .\core\templates\footer.html:26
+msgid "Application"
+msgstr "Solicitud"
+
+#: .\core\templates\footer.html:27
+msgid "Resource Planning"
+msgstr "Planeación de Recursos"
+
+#: .\core\templates\footer.html:28
+msgid "Enterprise"
+msgstr "Empresa"
+
+#: .\core\templates\footer.html:29
+msgid "Employee Management"
+msgstr "Gestión de Empleados"
+
+#: .\core\templates\footer.html:33
+msgid "Resources"
+msgstr "Recursos"
+
+#: .\core\templates\footer.html:35
+msgid "Payment Options"
+msgstr "Opciones de Pago"
+
+#: .\core\templates\footer.html:36
+msgid "Fee Schedule"
+msgstr "Programa de Tarifas"
+
+#: .\core\templates\footer.html:37
+msgid "Getting Started"
+msgstr "Empezando"
+
+#: .\core\templates\footer.html:38
+msgid "Identity Verification"
+msgstr "Verificación de Identidad"
+
+#: .\core\templates\footer.html:39
+msgid "Card Verification"
+msgstr "Verificación de Tarjeta"
+
+#: .\core\templates\footer.html:43
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\core\templates\footer.html:46
+msgid "105 Madison Avenue - "
+msgstr ""
+
+#: .\core\templates\footer.html:46
+msgid "Third Floor New York, NY 10016"
+msgstr "Tercer piso Nueva York, NY 10016"
+
+#: .\core\templates\footer.html:49
+msgid "P: +84 846 250 592"
+msgstr ""
+
+#: .\core\templates\footer.html:52
+msgid "E: contact@uideck.com"
+msgstr ""
+
+#: .\core\templates\footer.html:64
+msgid "All Right Reserved"
+msgstr "Todos los Derechos Reservados"
+
+#: .\core\templates\hero.html:9
+msgid ""
+"A Fusion é tudo o que sua empresa precisa<br>Ela deixará tudo mais feliz"
+msgstr ""
+"A Fusion é tudo o que sua empresa precisa<br>Ela deixará tudo mais feliz"
+
+#: .\core\templates\hero.html:10
+msgid ""
+"Você irá mais longe. Nós não estudamos na Geek University para ganhar pouco "
+"dinheiro!"
+msgstr ""
+"Vocirá irá mais longe. ¡Nós no estudamos na Geek University para ganhar "
+"pouco dinheiro!"
+
+#: .\core\templates\hero.html:12
+msgid "Saiba mais"
+msgstr "Saiba mais"
+
+#: .\core\templates\hero.html:13
+msgid "Entre em Ccontatp"
+msgstr "Entre en Contacto"
+
+#: .\core\templates\precos.html:7
+msgid "Pricing"
+msgstr "Precios"
+
+#: .\core\templates\precos.html:20
+msgid "Pro"
+msgstr ""
+
+#: .\core\templates\precos.html:23
+msgid "1 user"
+msgstr "1 usuario"
+
+#: .\core\templates\precos.html:24
+msgid "10 GB storage"
+msgstr "10 GB de almacenamiento"
+
+#: .\core\templates\precos.html:25
+msgid "Email support"
+msgstr "Soporte de correo electrónico"
+
+#: .\core\templates\precos.html:26 .\core\templates\precos.html:46
+#: .\core\templates\precos.html:66
+msgid "Lifetime updates"
+msgstr "Actualizaciones de por vida"
+
+#: .\core\templates\precos.html:28 .\core\templates\precos.html:48
+#: .\core\templates\precos.html:68
+msgid "Buy Now"
+msgstr "Compra ahora"
+
+#: .\core\templates\precos.html:40
+msgid "Plus"
+msgstr ""
+
+#: .\core\templates\precos.html:43
+msgid "10 user"
+msgstr "10 usuarios"
+
+#: .\core\templates\precos.html:44
+msgid "30 GB storage"
+msgstr "30 GB de almacenamiento"
+
+#: .\core\templates\precos.html:45
+msgid "Priority email support"
+msgstr "Soporte prioritario por correo electrónico"
+
+#: .\core\templates\precos.html:60
+msgid "Premium"
+msgstr ""
+
+#: .\core\templates\precos.html:63
+msgid "Unlimited users"
+msgstr "Usuarios ilimitados"
+
+#: .\core\templates\precos.html:64
+msgid "Unlimited storage"
+msgstr "Almacenamiento ilimitado"
+
+#: .\core\templates\precos.html:65
+msgid "24/7 support"
+msgstr "Soporte 24/7"
+
+#: .\core\templates\servicos.html:7
+msgid "Nossos Serviços"
+msgstr "Nuestros Servicios"
+
+#: .\core\templates\sobre.html:11
+msgid "Manage Statistics"
+msgstr "Administrar Estadísticas"
+
+#: .\core\templates\sobre.html:12
+msgid "Detailed Statistics of your Company"
+msgstr "Estadísticas Detalladas de su Empresa"
+
+#: .\core\templates\sobre.html:16
+msgid ""
+"Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, at "
+"finibus neque odio quis metus. Donec vulputate arcu quam. Morbi quis "
+"tincidunt ligula. Sed rutrum tincidunt pretium. Mauris auctor, purus a "
+"pulvinar fermentum, odio dui vehicula lorem, nec pharetra justo risus quis "
+"mi. Ut ac ex sagittis, viverra nisl vel, rhoncus odio."
+msgstr ""
+"Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, en "
+"finibus neque odio quis metus. Donec vulputate arcu quam. Morbi quis "
+"tincidunt ligula. Sed rutrum tincidunt pretium. Mauris auctor, purus a "
+"pulvinar fermentum, odio dui vehicula lorem, nec pharetra justo risus quis "
+"mi. Ut ac ex sagittis, viverra nisl vel, rhoncus odio."
+
+#: .\core\templates\sobre.html:18
+msgid "Read More"
+msgstr "Lee Mas"
+
+#: .\core\templates\time.html:7
+msgid "Conheça nosso Time"
+msgstr "Conozca a nuestro Equipo"
+
+#: .\core\views.py:28
+msgid "E-mail enviado com sucesso."
+msgstr "Email enviado com éxito."
+
+#: .\core\views.py:32
+msgid "Erro ao enviar E-mail."
+msgstr "Error al enviar Email."
+
+#~ msgid "Time"
+#~ msgstr "Equipo"

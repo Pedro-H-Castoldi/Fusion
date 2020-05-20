@@ -1,14 +1,16 @@
+{% load i18n %}
 {% load static %}
+
 <div id="hero-area" class="hero-area-bg">
     <div class="container">      
       <div class="row">
         <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
           <div class="contents">
-            <h2 class="head-title">A Fusion é tudo o que sua empresa precisa<br>Ela deixará tudo mais feliz</h2>
-            <p>Você irá mais longe. Nós não estudamos na Geek University para ganhar pouco dinheiro!</p>
+            <h2 class="head-title">{% trans 'A Fusion é tudo o que sua empresa precisa<br>Ela deixará tudo mais feliz' %}</h2>
+            <p>{% trans 'Você irá mais longe. Nós não estudamos na Geek University para ganhar pouco dinheiro!' %}</p>
             <div class="header-button">
-              <a href="#" class="btn btn-common">Saiba mais</i></a>
-              <a href="#" class="btn btn-border video-popup">Entre em Ccontatp</i></a>
+              <a href="#" class="btn btn-common">{% trans 'Saiba mais' %}</i></a>
+              <a href="#" class="btn btn-border video-popup">{% trans 'Entre em Ccontatp' %}</i></a>
             </div>
           </div>
         </div>

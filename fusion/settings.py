@@ -26,7 +26,7 @@ SECRET_KEY = '3yi-w!pdozy8yh_-xbw1fp!4r8q$jbmu2+iai*g_4p5z-_oppt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['fusion-phcb.herokuapp.com']
+ALLOWED_HOSTS = ['*'] # fusion-phcb.herokuapp.com
 
 
 # Application definition
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -79,7 +80,6 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -90,12 +90,13 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-"""
 
+
+"""
 DATABASES = {
     'default': dj_database_url.config()
 }
-
+"""
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -138,7 +139,8 @@ MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# E-mail teste console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 """
 # E-mail produção
@@ -152,3 +154,7 @@ DEFAULT_FROM_EMAIL = 'contato@fusion.com.br'
 """
 
 LOGOUT_REDIRECT_URL = 'index'
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
